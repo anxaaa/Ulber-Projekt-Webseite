@@ -14,35 +14,39 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-bold">
           Swiss Photography
         </h1>
-        
+
+        <p className="mt-3 text-2xl mt-5">
+          Wir fotografieren alles!
+        </p>
+
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
-            href="https://nextjs.org/docs"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
+            <h3 className="text-2xl font-bold">Dienstleistungen &rarr;</h3>
             <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
+              Erfahren Sie mehr darüber, was wir anbieten und welche Fotografieren wir machen.
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
+            <h3 className="text-2xl font-bold">Über uns &rarr;</h3>
             <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
+              Lernen Sie unser Fotografen-Team besser kennen.
             </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
+            <h3 className="text-2xl font-bold">Portfolio &rarr;</h3>
             <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
+              Sehen Sie sich einige unserer besten Bilder an!
             </p>
           </a>
 
@@ -50,9 +54,9 @@ const Home: NextPage = () => {
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
+            <h3 className="text-2xl font-bold">Kontakt &rarr;</h3>
             <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Treten Sie in Kontakt mit uns
             </p>
           </a>
         </div>
