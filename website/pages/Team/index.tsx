@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-const Home: NextPage = () => {
+const Team: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
       <Head>
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           <ul className="flex p-4 flex-row space-x-8 mt-0 mr-10">
             <li>
               <a
-                href="/"
+                href="#"
                 id="user"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             </li>
             <li>
               <a
-                href="/Angebot"
+                href="#"
                 id="user"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
             </li>
             <li>
               <a
-                href="/Portfolio"
+                href="/dashboard"
                 id="home"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
@@ -49,16 +49,16 @@ const Home: NextPage = () => {
             </li>
             <li>
               <a
-                href="/Team"
+                href="#"
                 id="settings"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
-                Team
+                &Uuml;ber uns
               </a>
             </li>
             <li>
               <a
-                href="/Kontakt"
+                href="#"
                 id="info"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
@@ -69,14 +69,14 @@ const Home: NextPage = () => {
         </div>
       </nav>
 
-      <main className="flex w-full flex-1 flex-col items-center px-20 text-center mt-24">
+      {/* <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">Swiss Photography</h1>
 
         <p className="text-2xl mt-5">Wir fotografieren alles!</p>
 
-        <div className="flex max-w-4xl flex-wrap items-center justify-around sm:w-full mt-20">
+        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
-            href="/Angebot"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Dienstleistungen &rarr;</h3>
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="/Team"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Über uns &rarr;</h3>
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="/Portfolio"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Portfolio &rarr;</h3>
@@ -104,16 +104,14 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="/Kontakt"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 md:mb-20 "
+            href="#"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Kontakt &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Treten Sie jederzeit in Kontakt mit uns.
-            </p>
+            <p className="mt-4 text-xl">Treten Sie in Kontakt mit uns.</p>
           </a>
         </div>
-      </main>
+      </main> */}
 
       <footer className="flex h-24 w-full items-center justify-center border-t bg-neutral-100 bottom-0">
         <p>Dies ist der Footer.</p>
@@ -122,4 +120,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Team;
