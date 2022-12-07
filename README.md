@@ -10,3 +10,9 @@ How to open the website:
 
 Of course, this only works if node js is installed on your computer.
 If this is not the case, you must download and install it first.
+
+How to install node js:
+1. go to the node js website -> https://nodejs.org/en/ 
+2. download the version of your choice
+3. double click the downloaded file to open the installer and follow the instructions on your screen
+4. open the terminal and type npm i
