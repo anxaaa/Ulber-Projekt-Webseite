@@ -1,3 +1,25 @@
+/*----------- Tailwind -----------*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*----------- Color Palette -----------*/
+:root {
+  
+}
+
+/*----------- Base -----------*/
+@layer base {
+}
+
+/*----------- Components -----------*/
+@layer components {
+
+  /* Top Nav */
+  nav {
+    z-index: 1000;
+  }
+
+}
+
+/*----------- Else -----------*/
