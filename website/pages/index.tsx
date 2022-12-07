@@ -19,11 +19,17 @@ const Home: NextPage = () => {
               </span>
             </a>
           </div>
-          <ul className="flex p-4 flex-row space-x-8 mt-0 mr-10">
+          <div className="block md:hidden">
+            <a className="mr-10" href="/">
+              <span className="self-center whitespace-nowrap pointer-events-none">
+                &#9776;
+              </span>
+            </a>
+          </div>
+          <ul className="p-4 flex-row space-x-8 mt-0 mr-10 hidden md:flex">
             <li>
               <a
                 href="/"
-                id="user"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
                 Home
@@ -32,7 +38,6 @@ const Home: NextPage = () => {
             <li>
               <a
                 href="/Angebot"
-                id="user"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
                 Angebot
@@ -41,7 +46,6 @@ const Home: NextPage = () => {
             <li>
               <a
                 href="/Portfolio"
-                id="home"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
                 Portfolio
@@ -50,7 +54,6 @@ const Home: NextPage = () => {
             <li>
               <a
                 href="/Team"
-                id="settings"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
                 Team
@@ -59,7 +62,6 @@ const Home: NextPage = () => {
             <li>
               <a
                 href="/Kontakt"
-                id="info"
                 className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
               >
                 Kontakt
@@ -90,7 +92,9 @@ const Home: NextPage = () => {
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Über uns &rarr;</h3>
-            <p className="mt-4 text-xl">Lernen Sie unser Team besser kennen.</p>
+            <p className="mt-4 text-xl">
+              Lernen Sie unser das Team hinter Swiss Photography besser kennen.
+            </p>
           </a>
 
           <a
@@ -105,7 +109,7 @@ const Home: NextPage = () => {
 
           <a
             href="/Kontakt"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 md:mb-20 "
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 mb-20 md:mb-0 "
           >
             <h3 className="text-2xl font-bold">Kontakt &rarr;</h3>
             <p className="mt-4 text-xl">
