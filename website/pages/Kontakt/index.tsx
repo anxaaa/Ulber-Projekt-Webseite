@@ -97,18 +97,18 @@ const Kontakt: NextPage = () => {
             </div>
             <div className="text-left">
               <p>Grund Ihrer Mitteilung:</p>
-              <input type="radio" name="photoshoot" className="md:ml-4" />
-              <label htmlFor="photoshoot" className="pl-3">
+              <input type="checkbox" name="reason" className="md:ml-4" />
+              <label htmlFor="reason" className="pl-3">
                 Ich möchte ein Fotoshooting buchen
               </label>
               <br />
-              <input type="radio" name="editing" className="md:ml-4" />
-              <label htmlFor="editing" className="pl-3">
+              <input type="checkbox" name="reason" className="md:ml-4" />
+              <label htmlFor="reason" className="pl-3">
                 Ich möchte ein Bild bearbeiten lassen
               </label>
               <br />
-              <input type="radio" name="other" className="md:ml-4" />
-              <label htmlFor="other" className="pl-3">
+              <input type="checkbox" name="reason" className="md:ml-4" />
+              <label htmlFor="reason" className="pl-3">
                 Ein anderer Grund
               </label>
             </div>
@@ -122,12 +122,12 @@ const Kontakt: NextPage = () => {
             </div>
             <div className="text-left">
               <p>Hatten Sie bereits Kontakt mit uns?</p>
-              <input type="radio" name="photoshoot" className="md:ml-4" />
-              <label htmlFor="photoshoot" className="pl-3">
+              <input type="radio" name="contact" className="md:ml-4" />
+              <label htmlFor="contact" className="pl-3">
                 Ja
               </label>
-              <input type="radio" name="editing" className="ml-4" />
-              <label htmlFor="editing" className="pl-3">
+              <input type="radio" name="contact" className="ml-4" />
+              <label htmlFor="contact" className="pl-3">
                 Nein
               </label>
             </div>
