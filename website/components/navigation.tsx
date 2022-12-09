@@ -16,8 +16,8 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
             </a>
           </div>
           <div className="block md:hidden">
-            <a className="mr-10" href="/">
-              <span className="self-center whitespace-nowrap pointer-events-none">
+            <a className="mr-10" href="/Menu">
+              <span className="self-center whitespace-nowrap pointer-events-none text-xl">
                 &#9776;
               </span>
             </a>

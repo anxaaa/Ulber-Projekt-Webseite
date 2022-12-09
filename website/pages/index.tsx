@@ -13,14 +13,14 @@ const Home: NextPage = () => {
       <Navigation />
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center mt-24">
-        <h1 className="text-6xl font-bold">Swiss Photography</h1>
+        <h1 className="md:text-6xl text-5xl font-bold">Swiss Photography</h1>
 
         <p className="text-2xl mt-5">Wir fotografieren alles!</p>
 
-        <div className="flex max-w-4xl flex-wrap items-center justify-around sm:w-full mt-20">
+        <div className="flex max-w-xs flex-wrap items-center justify-around md:max-w-4xl mt-20">
           <a
             href="/Angebot"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
             <h3 className="text-2xl font-bold">Dienstleistungen &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -30,17 +30,17 @@ const Home: NextPage = () => {
 
           <a
             href="/Team"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
             <h3 className="text-2xl font-bold">Über uns &rarr;</h3>
             <p className="mt-4 text-xl">
-              Lernen Sie unser das Team hinter Swiss Photography besser kennen.
+              Lernen Sie das Team hinter Swiss Photography besser kennen.
             </p>
           </a>
 
           <a
             href="/Portfolio"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
             <h3 className="text-2xl font-bold">Portfolio &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
 
           <a
             href="/Kontakt"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 mb-20 md:mb-0 "
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700 mb-20 md:mb-0"
           >
             <h3 className="text-2xl font-bold">Kontakt &rarr;</h3>
             <p className="mt-4 text-xl">
