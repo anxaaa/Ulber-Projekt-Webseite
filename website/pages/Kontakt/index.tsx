@@ -51,7 +51,7 @@ const Kontakt: NextPage = () => {
           Online Formular
         </h1>
         <p className="mt-4 text-xl">
-          Treten Sie via Formular in Kontakt mit uns.
+          Treten Sie via Formular mit uns in Kontakt.
         </p>
 
         {/* form section */}
