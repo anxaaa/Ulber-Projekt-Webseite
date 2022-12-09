@@ -9,11 +9,11 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
       <nav className="sticky top-nav px-2 py-2.5 bg-neutral-100 border-b">
         <div className="flex flex-wrap justify-between items-center">
           <div>
-            <a className="ml-10" href="/">
+            <p className="ml-10">
               <span className="self-center whitespace-nowrap pointer-events-none font-semibold text-xl">
                 Swiss Photography
               </span>
-            </a>
+            </p>
           </div>
           <div className="block md:hidden">
             <a className="mr-10" href="/Menu">

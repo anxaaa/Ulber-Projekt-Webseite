@@ -14,10 +14,11 @@ const Home: NextPage = () => {
       <Navigation />
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center mt-24">
+        {/* title section */}
         <h1 className="md:text-6xl text-5xl font-bold">Swiss Photography</h1>
-
         <p className="text-2xl mt-5">Wir fotografieren alles!</p>
 
+        {/* main links section */}
         <div className="flex max-w-xs flex-wrap items-center justify-around md:max-w-4xl mt-20">
           <a
             href="/Angebot"
@@ -28,7 +29,6 @@ const Home: NextPage = () => {
               Erfahren Sie mehr darüber, was wir anbieten.
             </p>
           </a>
-
           <a
             href="/Team"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
@@ -38,7 +38,6 @@ const Home: NextPage = () => {
               Lernen Sie das Team hinter Swiss Photography besser kennen.
             </p>
           </a>
-
           <a
             href="/Portfolio"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
@@ -48,7 +47,6 @@ const Home: NextPage = () => {
               Sehen Sie sich einige unserer besten Bilder an.
             </p>
           </a>
-
           <a
             href="/Kontakt"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700 mb-20 md:mb-0"
