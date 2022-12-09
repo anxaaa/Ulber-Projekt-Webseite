@@ -17,6 +17,9 @@ const Angebot: NextPage = () => {
         <h1 className="md:text-6xl text-4xl font-bold mt-10">
           Unsere Dienstleistungen
         </h1>
+        <p className="mt-4 text-xl">
+          Erhalten Sie einen Überblick über unser Angebot.
+        </p>
       </main>
 
       <Footer />

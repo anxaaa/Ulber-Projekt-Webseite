@@ -15,6 +15,9 @@ const Portfolio: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
         <h1 className="md:text-6xl text-4xl font-bold mt-10">Portfolio</h1>
+        <p className="mt-4 text-xl">
+          Sehen Sie sich einige unserer besten Fotos an.
+        </p>
       </main>
 
       <Footer />
