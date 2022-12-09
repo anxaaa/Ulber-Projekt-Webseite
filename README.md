@@ -1,4 +1,4 @@
-# Ulber Projekt Webseite
+# Swiss Photography Projekt
 
 How to open the website:
 
