@@ -15,6 +15,7 @@ const Team: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
         <h1 className="md:text-6xl text-4xl font-bold mt-10">Unser Team</h1>
+        <p className="mt-4 text-xl">Lernen Sie uns besser kennen.</p>
       </main>
 
       <Footer />
