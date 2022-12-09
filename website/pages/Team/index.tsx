@@ -20,6 +20,7 @@ const Team: NextPage = () => {
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
         <h1 className="md:text-6xl text-4xl font-bold mt-10">Unser Team</h1>
         <p className="mt-4 text-xl">Lernen Sie uns besser kennen.</p>
+
         <div className="my-20 max-w-xs items-center justify-around md:max-w-4xl space-y-8">
           <div className="rounded-xl border p-6 text-left flex">
             <TobiasWeber />
