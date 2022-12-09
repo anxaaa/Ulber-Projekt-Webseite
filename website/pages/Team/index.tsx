@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Footer from "../../components/footer";
 import Navigation from "../../components/navigation";
+
+// importing all svgs
 import TobiasWeber from "../../components/media/team/tobiasweber.svg";
 import AndreasWagner from "../../components/media/team/andreaswagner.svg";
 import LudwigErhard from "../../components/media/team/ludwigerhard.svg";
@@ -18,9 +20,11 @@ const Team: NextPage = () => {
       <Navigation />
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
+        {/* title section */}
         <h1 className="md:text-6xl text-4xl font-bold mt-10">Unser Team</h1>
         <p className="mt-4 text-xl">Lernen Sie uns besser kennen.</p>
 
+        {/* team section */}
         <div className="my-20 max-w-xs items-center justify-around md:max-w-4xl space-y-8">
           <div className="rounded-xl border p-6 text-left flex">
             <TobiasWeber />
