@@ -14,13 +14,13 @@ const Kontakt: NextPage = () => {
       <Navigation />
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
-        {/* title section */}
+        {/* first title section */}
         <h1 className="md:text-6xl text-4xl font-bold mt-10">Kontakt</h1>
         <p className="mt-4 text-xl">
-          Treten Sie persöhnlich in Kontakt mit uns.
+          Nehmen Sie persönlich Kontakt mit uns auf.
         </p>
 
-        {/* contact section */}
+        {/* section for adress etc */}
         <div className="my-20 flex flex-wrap items-center justify-center">
           {/* map */}
           <iframe
@@ -44,6 +44,99 @@ const Kontakt: NextPage = () => {
             <p className="text-xl">Scarlettastrasse 30</p>
             <p className="text-xl">CH-7000 Chur</p>
           </div>
+        </div>
+
+        {/* second title section */}
+        <h1 className="md:text-6xl text-4xl font-bold mt-10">
+          Online Formular
+        </h1>
+        <p className="mt-4 text-xl">
+          Treten Sie via Formular in Kontakt mit uns.
+        </p>
+
+        {/* form section */}
+        <div className="my-20 flex flex-wrap">
+          <form action="../api/form" method="post" className="space-y-4">
+            <div className="md:flex md:flex-wrap md:space-x-8 space-y-4 md:space-y-0">
+              <div className="text-left">
+                <p>Vorname:</p>
+                <input
+                  type="text"
+                  name="firstName"
+                  placeholder=""
+                  className="border w-full"
+                />
+              </div>
+              <div className="text-left">
+                <p>Nachname:</p>
+                <input
+                  type="text"
+                  name="lastName"
+                  placeholder=""
+                  className="border w-full"
+                />
+              </div>
+            </div>
+            <div className="text-left">
+              <p>E-Mail Adresse:</p>
+              <input
+                type="text"
+                name="email"
+                placeholder=""
+                className="border w-full"
+              />
+            </div>
+            <div className="text-left">
+              <p>Telefonnummer:</p>
+              <input
+                type="text"
+                name="phone"
+                placeholder=""
+                className="border w-full"
+              />
+            </div>
+            <div className="text-left">
+              <p>Grund Ihrer Mitteilung:</p>
+              <input type="radio" name="photoshoot" className="md:ml-4" />
+              <label htmlFor="photoshoot" className="pl-3">
+                Ich möchte ein Fotoshooting buchen
+              </label>
+              <br />
+              <input type="radio" name="editing" className="md:ml-4" />
+              <label htmlFor="editing" className="pl-3">
+                Ich möchte ein Bild bearbeiten lassen
+              </label>
+              <br />
+              <input type="radio" name="other" className="md:ml-4" />
+              <label htmlFor="other" className="pl-3">
+                Ein anderer Grund
+              </label>
+            </div>
+            <div className="text-left">
+              <p>Ihre Mitteilung:</p>
+              <textarea
+                name="message"
+                rows={5}
+                className="border w-full"
+              ></textarea>
+            </div>
+            <div className="text-left">
+              <p>Hatten Sie bereits Kontakt mit uns?</p>
+              <input type="radio" name="photoshoot" className="md:ml-4" />
+              <label htmlFor="photoshoot" className="pl-3">
+                Ja
+              </label>
+              <input type="radio" name="editing" className="ml-4" />
+              <label htmlFor="editing" className="pl-3">
+                Nein
+              </label>
+            </div>
+            <input
+              className="border p-2 w-full bg-neutral-100 rounded-lg hover:bg-neutral-200 focus:bg-red-700"
+              type="submit"
+              value="Absenden"
+            />
+          </form>
         </div>
       </main>
 
