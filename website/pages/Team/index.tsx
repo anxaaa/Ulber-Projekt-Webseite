@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Footer from "../../components/footer";
 import Navigation from "../../components/navigation";
 
 const Team: NextPage = () => {
@@ -16,9 +17,7 @@ const Team: NextPage = () => {
         <h1 className="md:text-6xl text-4xl font-bold mt-10">Unser Team</h1>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t bg-neutral-100 bottom-0">
-        <p>Dies ist der Footer.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

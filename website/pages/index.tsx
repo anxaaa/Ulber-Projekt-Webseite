@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Footer from "../components/footer";
 import Navigation from "../components/navigation";
 
 const Home: NextPage = () => {
@@ -60,9 +61,7 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t bg-neutral-100 bottom-0">
-        <p>Dies ist der Footer.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
