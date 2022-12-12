@@ -21,6 +21,98 @@ const agb: NextPage = () => {
         </p>
       </main>
 
+      {/* content section */}
+      <div className="my-20 text-left md:max-w-2xl max-w-xs w-full p-2 px-4 space-y-4">
+        <div>
+          <h3 className="text-xl font-bold">Annahme der Bedingungen</h3>
+          <p>
+            Sie bestätigen und erklären Ihr Einverständnis mit den
+            untenstehenden Bedingungen und Konditionen sowie deren Änderungen
+            oder Ergänzungen, die swissphotography, Inc. („Swissphotography“) zu
+            gegebener Zeit veröffentlicht (zusammengefasst die
+            „Nutzungsbedingungen“).{" "}
+            <b>
+              Falls Sie mit den Bedingungen dieser Nutzungsbedingungen nicht
+              einverstanden sind, rufen Sie diese Website nicht auf bzw.
+              benutzen Sie diese nicht.
+            </b>
+          </p>
+        </div>
+        <div>
+          <h3 className="text-xl font-bold">
+            Von Ihnen zur Verfügung gestellte Informationen
+          </h3>
+          <p>
+            Swissphotography wird Ihre personenbezogenen Angaben, wie etwa Name
+            und Telefonnummer, entsprechend der Datenschutzerklärung von
+            Swissphotography schützen und verwenden. Deren Inhalt wird durch
+            diesen Hinweis Bestandteil dieser Nutzungsbedingungen.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-xl font-bold">Unsere Inhalte</h3>
+          <p>
+            Sie dürfen Inhalte von Swissphotography nur mit der entsprechenden
+            Lizenz zu deren Nutzung verwenden. Die Nutzung von Inhalten von
+            Swissphotography wird durch die anwendbare Lizenzvereinbarung, die
+            Sie mit Swissphotography geschlossen haben, geregelt. Die Abbildung
+            und/oder der Vertrieb von nicht lizenzierten oder mit Wasserzeichen
+            versehenen Inhalten von Swissphotography (egal ob einzeln oder in
+            abgeleiteten Werken) stellt eine Urheberrechtsverletzung dar.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-xl font-bold">
+            Garantien und Haftungsausschlüsse
+          </h3>
+          <div className="space-y-2">
+            <p>
+              Die Nutzung der Website erfolgt auf eigene Gefahr. Die Website
+              wird von Swissphotography unter den aktuellen Nutzungsbedingungen
+              und ohne jegliche Garantien (explizite, implizite, gesetzliche
+              oder andere) zur Verfügung gestellt.
+            </p>
+            <p>
+              Swissphotography übernimmt keinerlei Garantie, weder explizit noch
+              implizit, für irgendeine Dienstleistung, auf die von der Website
+              aus zugegriffen werden kann. Das beinhaltet unter anderem die
+              Garantien der Mindestqualität, Eignung für einen bestimmten Zweck,
+              Nichtverletzung und andere Garantien, die unter irgendein Gesetz
+              fallen.
+            </p>
+            <p>
+              Ohne Einschränkung des Vorhergehenden übernimmt Swissphotography
+              keine Garantie, dass: (i) die Website Ihre Anforderungen erfüllt,
+              (ii) der Zugang zu dieser Website unterbrechungsfrei erfolgt,
+              (iii) die Qualität der Website Ihre Erwartungen erfüllt und (iv)
+              jegliche Fehler oder Mängel auf dieser Website bzw. bei den
+              Dienstleistungen oder Materialien behoben werden.
+            </p>
+            <p>
+              Des Weiteren sind alle Angebote unverbindlich. Swissphotography
+              behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte
+              Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu
+              löschen oder die Veröffentlichung zeitweise oder endgültig
+              einzustellen.
+            </p>
+            <p>
+              Swissphotography macht keinerlei Zusicherung und übernimmt
+              keinerlei Garantie, dass die Website nach den Gesetzen Ihres
+              Landes erlaubt ist, Ihr Inhalt auf der Website gespeichert oder zu
+              Verfügung gestellt wird, die Website Ihre Anforderungen erfüllt
+              oder dass Swissphotography eine bestimmte Funktion beibehält.
+            </p>
+            <p>
+              Sollten Haftungsausschluss oder -beschränkungen nicht zutreffen,
+              sind alle anwendbaren expliziten, impliziten oder gesetzlichen
+              Garantien auf einen Zeitraum von dreißig (30) Tagen ab dem ersten
+              Tag der Nutzung der Website beschränkt und haben nach Ablauf
+              dieser Frist keine Gültigkeit mehr.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <Footer />
     </div>
   );
