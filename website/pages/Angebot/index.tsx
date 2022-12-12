@@ -95,26 +95,26 @@ const Angebot: NextPage = () => {
         {/* price section */}
         <div className="my-20 max-w-xs md:max-w-2xl w-full">
           <table className="border border-collapse text-left w-full">
-            <tr className="bg-neutral-100 text-lg">
+            <thead className="bg-neutral-100 text-lg">
               <th className="border w-1/2 pl-2">Zeit</th>
               <th className="border pl-2">Preis</th>
-            </tr>
-            <tr>
+            </thead>
+            <tbody>
               <td className="border pl-2">1 Stunde</td>
               <td className="border pl-2">100 CHF</td>
-            </tr>
-            <tr>
+            </tbody>
+            <tbody>
               <td className="border pl-2">2 Stunden</td>
               <td className="border pl-2">180 CHF</td>
-            </tr>
-            <tr>
+            </tbody>
+            <tbody>
               <td className="border pl-2">Jede weitere Stunde</td>
               <td className="border pl-2">+ 60 CHF</td>
-            </tr>
-            <tr>
+            </tbody>
+            <tbody>
               <td className="border pl-2">Ganzer Tag</td>
               <td className="border pl-2">500 CHF</td>
-            </tr>
+            </tbody>
           </table>
         </div>
       </main>
