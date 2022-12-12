@@ -17,7 +17,7 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
           </div>
           <div className="block md:hidden">
             <a className="mr-10" href="/Menu">
-              <span className="self-center whitespace-nowrap pointer-events-none text-xl">
+              <span className="self-center whitespace-nowrap pointer-events-none text-xl focus:text-red-700">
                 &#9776;
               </span>
             </a>
@@ -26,7 +26,7 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
             <li>
               <a
                 href="/"
-                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
+                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline focus:text-red-700"
               >
                 Home
               </a>
@@ -34,7 +34,7 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
             <li>
               <a
                 href="/Angebot"
-                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
+                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline focus:text-red-700"
               >
                 Angebot
               </a>
@@ -42,7 +42,7 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
             <li>
               <a
                 href="/Portfolio"
-                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
+                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline focus:text-red-700"
               >
                 Portfolio
               </a>
@@ -50,7 +50,7 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
             <li>
               <a
                 href="/Team"
-                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
+                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline focus:text-red-700"
               >
                 Team
               </a>
@@ -58,7 +58,7 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
             <li>
               <a
                 href="/Kontakt"
-                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline"
+                className="block py-2 pr-4 pl-3 md:bg-transparent md:p-0 hover:underline focus:text-red-700"
               >
                 Kontakt
               </a>
