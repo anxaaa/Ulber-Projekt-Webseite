@@ -94,28 +94,28 @@ const Angebot: NextPage = () => {
 
         {/* price section */}
         <div className="my-20 max-w-xs md:max-w-2xl w-full">
-          <table className="border border-collapse text-left w-full">
-            <thead className="bg-neutral-100 text-lg">
-              <th className="border w-1/2 pl-2">Zeit</th>
-              <th className="border pl-2">Preis</th>
-            </thead>
-            <tbody>
-              <td className="border pl-2">1 Stunde</td>
-              <td className="border pl-2">100 CHF</td>
-            </tbody>
-            <tbody>
-              <td className="border pl-2">2 Stunden</td>
-              <td className="border pl-2">180 CHF</td>
-            </tbody>
-            <tbody>
-              <td className="border pl-2">Jede weitere Stunde</td>
-              <td className="border pl-2">+ 60 CHF</td>
-            </tbody>
-            <tbody>
-              <td className="border pl-2">Ganzer Tag</td>
-              <td className="border pl-2">500 CHF</td>
-            </tbody>
-          </table>
+          <div className="border text-left w-full">
+            <div className="bg-neutral-100 text-lg flex">
+              <p className="border w-1/2 pl-2">Zeit</p>
+              <p className="border pl-2">Preis</p>
+            </div>
+            <div className="flex">
+              <p className="border w-1/2 pl-2">1 Stunde</p>
+              <p className="border pl-2">100 CHF</p>
+            </div>
+            <div className="flex">
+              <p className="border w-1/2 pl-2">2 Stunden</p>
+              <p className="border pl-2">180 CHF</p>
+            </div>
+            <div className="flex">
+              <p className="border w-1/2 pl-2">Jede weitere Stunde</p>
+              <p className="border pl-2">+ 60 CHF</p>
+            </div>
+            <div className="flex">
+              <p className="border w-1/2 pl-2">Ganzer Tag</p>
+              <p className="border pl-2">500 CHF</p>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />
