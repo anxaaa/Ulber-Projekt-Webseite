@@ -39,6 +39,40 @@ const agb: NextPage = () => {
           </p>
         </div>
         <div>
+          <h3 className="text-xl font-bold">Preise</h3>
+          <p>
+            Es gelten die aktuellen Preise der Preisliste, welche sich auf der
+            offiziellen Swissphotography Webseite befindet.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-xl font-bold">Bezahlung</h3>
+          <div className="space-y-2">
+            <p>
+              Der Versand der Rechnung erfolgt vor dem Fotoshooting per E-Mail
+              oder Post. Sie verpflichten sich dazu, diesen Betrag bis zwei Tage
+              (48 Stunden) vor dem Fotoshooting zu begleichen.
+            </p>
+            <p>
+              Bei einem Rechnungsverzug von einem Tag (24 Stunden) behält sich
+              Swissphotography das Recht vor, 50 CHF für den entstandenen
+              Mehraufwand in Rechnung zu stellen.
+            </p>
+            <p>
+              Bei einem Rechnungsverzug von mehr als einem Tag (24 Stunden) wird
+              das Fotoshooting nicht stattfinden.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3 className="text-xl font-bold">Verhinderungen</h3>
+          <p>
+            Falls ein Fotoshooting-Termin nicht eingehalten werden kann,
+            kontaktieren Sie uns bitte unverzüglich. Es werden keine Kosten
+            rückerstattet.
+          </p>
+        </div>
+        <div>
           <h3 className="text-xl font-bold">
             Von Ihnen zur Verfügung gestellte Informationen
           </h3>
@@ -61,6 +95,7 @@ const agb: NextPage = () => {
             abgeleiteten Werken) stellt eine Urheberrechtsverletzung dar.
           </p>
         </div>
+
         <div>
           <h3 className="text-xl font-bold">
             Garantien und Haftungsausschlüsse
