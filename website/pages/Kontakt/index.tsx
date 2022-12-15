@@ -132,7 +132,7 @@ const Kontakt: NextPage = () => {
               </label>
             </div>
             <input
-              className="border p-2 w-full bg-neutral-100 rounded-lg hover:bg-neutral-200 focus:bg-red-700"
+              className="border p-2 w-full bg-neutral-100 rounded-lg hover:bg-neutral-200 focus:text-red-700"
               type="submit"
               value="Absenden"
             />

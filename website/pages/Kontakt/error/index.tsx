@@ -25,7 +25,7 @@ const error: NextPage = () => {
         </div>
         <a
           href="/Kontakt"
-          className="mt-6 mb-20 border rounded-xl p-2 px-4 bg-neutral-100 hover:bg-neutral-200 focus:bg-red-700"
+          className="mt-6 mb-20 border rounded-xl p-2 px-4 bg-neutral-100 hover:bg-neutral-200 focus:text-red-700"
         >
           Erneut versuchen
         </a>
