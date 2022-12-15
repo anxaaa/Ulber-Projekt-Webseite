@@ -4,10 +4,11 @@ This is a school project. The task was to create a website and to implement all 
 Therefore, I would like to point out that Swiss Photography is merely an invention and does not exist.
 
 ## How to open the website:
+_this doesn't work on your phone!_
 
 1. save this repository in your local storage
 
-_You can either clone this repository or donwload the zip file from it (if you download the zip file, don't forget to unzip it)._
+You can either clone this repository or donwload the zip file from it (if you download the zip file, don't forget to unzip it).
 
 <img width="419" alt="Bildschirmfoto 2022-12-15 um 11 59 37" src="https://user-images.githubusercontent.com/112116868/207842761-5b46e530-5380-4f8e-b186-4a579d87e19a.png">
 
