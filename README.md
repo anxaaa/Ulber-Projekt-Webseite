@@ -1,6 +1,8 @@
 # Swiss Photography Projekt
 This is a school project. The task was to create a website and to implement all legal aspects (such as imprint, cookies or general terms and conditions) on this website.
 
+Therefore, I would like to point out that Swiss Photography is merely an invention and does not exist.
+
 ## How to open the website:
 
 1. save this repository in your local storage
