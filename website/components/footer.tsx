@@ -20,7 +20,7 @@ export default function Footer({}: PropsWithChildren<FooterProps>) {
           <br />
           <p className="hidden md:block">|</p>
           <a className="underline focus:text-red-700" href="/Datenschutz">
-            Datenschutz
+            Datenschutzerklärung
           </a>
           <br />
           <p className="hidden md:block">|</p>
