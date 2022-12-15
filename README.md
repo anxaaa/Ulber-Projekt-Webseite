@@ -4,7 +4,7 @@ This is a school project. The task was to create a website and to implement all 
 Therefore, I would like to point out that Swiss Photography is merely an invention and does not exist.
 
 ## How to open the website:
-_this doesn't work on your phone!_
+_This doesn't work on your phone!_
 
 1. save this repository in your local storage
 
