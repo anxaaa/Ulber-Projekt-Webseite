@@ -1,4 +1,5 @@
 # Swiss Photography Projekt
+This is a school project. The task was to create a website and to implement all legal aspects (such as imprint, cookies or general terms and conditions) on this website.
 
 ## How to open the website:
 
