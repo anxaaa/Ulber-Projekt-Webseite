@@ -20,7 +20,7 @@ You can either clone this repository or donwload the zip file from it (if you do
 <img width="698" alt="Bildschirmfoto 2022-12-01 um 15 56 42" src="https://user-images.githubusercontent.com/112116868/205085488-b1772211-8e79-4b80-9dd5-3cfdd81bb978.png">
 
 **Of course, this only works if node js is installed on your computer.
-If this is not the case, you must download and install it first.**
+If this isn't the case, you must download and install it first.**
 
 ## How to install node js:
 1. go to the node js website -> https://nodejs.org/de/ 
