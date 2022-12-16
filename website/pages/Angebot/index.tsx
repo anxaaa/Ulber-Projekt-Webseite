@@ -101,19 +101,19 @@ const Angebot: NextPage = () => {
             </div>
             <div className="flex">
               <p className="border w-1/2 pl-2">1 Stunde</p>
-              <p className="border pl-2">100 CHF</p>
+              <p className="border w-1/2 pl-2">100 CHF</p>
             </div>
             <div className="flex">
               <p className="border w-1/2 pl-2">2 Stunden</p>
-              <p className="border pl-2">180 CHF</p>
+              <p className="border pl-2 w-1/2">180 CHF</p>
             </div>
             <div className="flex">
               <p className="border w-1/2 pl-2">Jede weitere Stunde</p>
-              <p className="border pl-2">+ 60 CHF</p>
+              <p className="border pl-2 w-1/2">+ 60 CHF</p>
             </div>
             <div className="flex">
               <p className="border w-1/2 pl-2">Ganzer Tag</p>
-              <p className="border pl-2">500 CHF</p>
+              <p className="border pl-2 w-1/2">500 CHF</p>
             </div>
           </div>
         </div>
