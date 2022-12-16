@@ -28,30 +28,16 @@ const Angebot: NextPage = () => {
         </h3>
         <div className="flex max-w-xs flex-wrap items-center justify-around md:max-w-4xl mb-16">
           <a
-            href="/Portfolio"
+            href="/Portfolio#wedding"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
-            <h3 className="text-2xl font-bold">&rarr; Hochzeitsfotos</h3>
+            <h3 className="text-2xl font-bold">&rarr; Hochzeiten</h3>
           </a>
           <a
             href="/Portfolio"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
-            <h3 className="text-2xl font-bold">&rarr; Familienfotos</h3>
-          </a>
-          <a
-            href="/Portfolio"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
-          >
-            <h3 className="text-2xl font-bold">&rarr; Kindergeburtstag</h3>
-          </a>
-          <a
-            href="/Portfolio"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
-          >
-            <h3 className="text-2xl font-bold">
-              &rarr; Werbung / Firmenportraits
-            </h3>
+            <h3 className="text-2xl font-bold">&rarr; Familie</h3>
           </a>
           <a
             href="/Portfolio"
@@ -82,7 +68,7 @@ const Angebot: NextPage = () => {
           </p>
           <a
             href="/Kontakt"
-            className="font-bold text-xl mt-6 mb-20 border rounded-xl p-2 px-4 bg-neutral-100 hover:bg-neutral-200 focus:bg-red-700"
+            className="font-bold text-xl mt-6 mb-20 border rounded-xl p-2 px-4 bg-neutral-100 hover:bg-neutral-200 focus:text-red-700"
           >
             &rarr; Kontakt
           </a>
