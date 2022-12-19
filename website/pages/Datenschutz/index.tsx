@@ -92,6 +92,18 @@ const datenschutz: NextPage = () => {
               Clickstream-Daten bezeichnet.
             </p>
             <p>
+              Diese Webseite verwendet ausserdem Cookies. Cookies sind kleine
+              Textdateien, die von Websites verwendet werden können, um das
+              Nutzererlebnis effizienter zu gestalten. Wir verwenden Cookies, um
+              Inhalte und Anzeigen zu personalisieren, um Funktionen für soziale
+              Medien bereitzustellen und um unseren Datenverkehr zu analysieren.
+              Wir teilen Informationen über Ihre Nutzung unserer Website auch
+              mit unseren Partnern für soziale Medien, Werbung und Analysen, die
+              diese mit anderen Informationen kombinieren können, die Sie ihnen
+              zur Verfügung gestellt haben oder die sie aus Ihrer Nutzung
+              unserer Dienste gesammelt haben.
+            </p>
+            <p>
               Kontaktieren Sie uns unter swiss.photography@mail.ch, um die
               Löschung Ihrer personenbezogenen Daten von unserem Blog bzw. dem
               Community-Forum zu beantragen.
