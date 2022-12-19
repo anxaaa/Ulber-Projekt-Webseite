@@ -2,12 +2,13 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Footer from "../../components/footer";
 import Navigation from "../../components/navigation";
+import Image from "next/image";
 
-// importing all svgs
-import TobiasWeber from "../../components/media/team/tobiasweber.svg";
-import AndreasWagner from "../../components/media/team/andreaswagner.svg";
-import LudwigErhard from "../../components/media/team/ludwigerhard.svg";
-import SophieKleiber from "../../components/media/team/sophiekleiber.svg";
+// importing all images
+import TobiasWeber from "../../components/media/team/tobiasweber.jpg";
+import AndreasWagner from "../../components/media/team/andreaswagner.jpg";
+import LudwigErhard from "../../components/media/team/ludwigerhard.jpg";
+import SophieKleiber from "../../components/media/team/sophiekleiber.jpg";
 
 const Team: NextPage = () => {
   return (
@@ -26,8 +27,8 @@ const Team: NextPage = () => {
 
         {/* team section */}
         <div className="my-20 max-w-xs items-center justify-around md:max-w-4xl space-y-8">
-          <div className="rounded-xl border p-6 text-left flex">
-            <TobiasWeber />
+          <div className="rounded-xl border p-6 text-left md:flex">
+            <Image src={TobiasWeber} alt="Tobias Weber" />
             <div className="pl-6">
               <h3 className="text-2xl font-bold">Tobias Weber</h3>
               <p className="mt-4 text-xl">- Fotograf</p>
@@ -40,8 +41,8 @@ const Team: NextPage = () => {
               </a>
             </div>
           </div>
-          <div className="rounded-xl border p-6 text-left flex">
-            <AndreasWagner />
+          <div className="rounded-xl border p-6 text-left md:flex">
+            <Image src={AndreasWagner} alt="Andreas Wagner" />
             <div className="pl-6">
               <h3 className="text-2xl font-bold">Andreas Wagner</h3>
               <p className="mt-4 text-xl">- Grafik Designer</p>
@@ -54,8 +55,8 @@ const Team: NextPage = () => {
               </a>
             </div>
           </div>
-          <div className="rounded-xl border p-6 text-left flex">
-            <LudwigErhard />
+          <div className="rounded-xl border p-6 text-left md:flex">
+            <Image src={LudwigErhard} alt="Ludwig Erhard" />
             <div className="pl-6">
               <h3 className="text-2xl font-bold">Ludwig Erhard</h3>
               <p className="mt-4 text-xl">- Manager</p>
@@ -68,8 +69,8 @@ const Team: NextPage = () => {
               </a>
             </div>
           </div>
-          <div className="rounded-xl border p-6 text-left flex">
-            <SophieKleiber />
+          <div className="rounded-xl border p-6 text-left md:flex">
+            <Image src={SophieKleiber} alt="Sophie Kleiber" />
             <div className="pl-6">
               <h3 className="text-2xl font-bold">Sophie Kleiber</h3>
               <p className="mt-4 text-xl">- Sekretärin</p>
