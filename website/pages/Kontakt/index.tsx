@@ -15,7 +15,9 @@ const Kontakt: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
         {/* first title section */}
-        <h1 className="md:text-6xl text-4xl font-bold mt-10">Kontakt</h1>
+        <h1 className="md:text-6xl text-4xl font-bold mt-20 md:mt-32">
+          Kontakt
+        </h1>
         <p className="mt-4 text-xl">
           Nehmen Sie persönlich Kontakt mit uns auf.
         </p>

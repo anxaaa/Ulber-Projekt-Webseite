@@ -15,7 +15,7 @@ const agb: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
         {/* title section */}
-        <h1 className="md:text-6xl text-4xl font-bold mt-10">AGB</h1>
+        <h1 className="md:text-6xl text-4xl font-bold mt-20 md:mt-32">AGB</h1>
         <p className="mt-4 text-xl">
           Die allgemeinen Geschäftsbedingungen von Swiss Photography:
         </p>

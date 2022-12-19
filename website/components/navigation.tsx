@@ -6,7 +6,7 @@ export default function Navigation({}: PropsWithChildren<NavigationProps>) {
   return (
     <div className="w-full">
       {/* Top Nav */}
-      <nav className="sticky top-nav px-2 py-2.5 bg-neutral-100 border-b">
+      <nav className="w-full fixed top-nav px-2 py-2.5 bg-neutral-100 border-b">
         <div className="flex flex-wrap justify-between items-center">
           <div>
             <p className="ml-10">

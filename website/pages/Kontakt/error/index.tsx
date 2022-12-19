@@ -14,7 +14,9 @@ const error: NextPage = () => {
       <Navigation />
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
-        <h1 className="md:text-6xl text-4xl font-bold mt-10">Error!</h1>
+        <h1 className="md:text-6xl text-4xl font-bold mt-20 md:mt-32">
+          Error!
+        </h1>
         <p className="mt-4 text-xl">
           Ein Fehler ist bei der Übermittlung Ihrer Nachricht aufgetaucht.
         </p>

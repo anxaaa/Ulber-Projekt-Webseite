@@ -15,7 +15,7 @@ const Angebot: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center px-20 text-center h-full">
         {/* first title section */}
-        <h1 className="md:text-6xl text-4xl font-bold mt-10">
+        <h1 className="md:text-6xl text-4xl font-bold mt-20 md:mt-32">
           Unsere Dienstleistungen
         </h1>
         <p className="mt-4 text-xl">
@@ -64,7 +64,7 @@ const Angebot: NextPage = () => {
           </p>
           <p className="font-bold my-6 text-lg">
             Kontaktieren Sie uns jetzt persönlich oder via Formular und
-            vereinbaren Sie ein Termin!
+            vereinbaren Sie einen Termin!
           </p>
           <a
             href="/Kontakt"
@@ -98,7 +98,7 @@ const Angebot: NextPage = () => {
               <p className="border pl-2 w-1/2">+ 60 CHF</p>
             </div>
             <div className="flex">
-              <p className="border w-1/2 pl-2">Ganzer Tag</p>
+              <p className="border w-1/2 pl-2">Ganzer Tag (8 Stunden)</p>
               <p className="border pl-2 w-1/2">500 CHF</p>
             </div>
           </div>

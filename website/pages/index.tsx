@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <Navigation />
 
-      <main className="flex w-full flex-1 flex-col items-center px-20 text-center mt-24">
+      <main className="flex w-full flex-1 flex-col items-center px-20 text-center mt-24 md:mt-36">
         {/* title section */}
         <h1 className="md:text-6xl text-5xl font-bold">Swiss Photography</h1>
         <p className="text-2xl mt-5">Wir fotografieren alles!</p>
