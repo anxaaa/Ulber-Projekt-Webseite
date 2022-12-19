@@ -28,25 +28,25 @@ const Angebot: NextPage = () => {
         </h3>
         <div className="flex max-w-xs flex-wrap items-center justify-around md:max-w-4xl mb-16">
           <a
-            href="/Portfolio#wedding"
+            href="/Portfolio#hochzeiten"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
             <h3 className="text-2xl font-bold">&rarr; Hochzeiten</h3>
           </a>
           <a
-            href="/Portfolio"
+            href="/Portfolio#familie"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
             <h3 className="text-2xl font-bold">&rarr; Familie</h3>
           </a>
           <a
-            href="/Portfolio"
+            href="/Portfolio#architektur"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
             <h3 className="text-2xl font-bold">&rarr; Architektur</h3>
           </a>
           <a
-            href="/Portfolio"
+            href="/Portfolio#weiteres"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-red-700 focus:text-red-700"
           >
             <h3 className="text-2xl font-bold">&rarr; Weiteres</h3>
