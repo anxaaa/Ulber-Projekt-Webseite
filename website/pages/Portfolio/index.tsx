@@ -76,7 +76,7 @@ const Portfolio: NextPage = () => {
           <h3 id="hochzeiten" className="font-bold text-2xl text-left">
             Hochzeiten
           </h3>
-          <div className="md:flex md:space-x-8 space-y-8 md:space-y-0">
+          <div className="space-y-8">
             <Image className="w-full" src={weddingPic1} alt="Hochzeitbild 1" />
             <Image className="w-full" src={weddingPic2} alt="Hochzeitbild 2" />
           </div>
@@ -87,11 +87,11 @@ const Portfolio: NextPage = () => {
           <h3 id="familie" className="font-bold text-2xl text-left">
             Familie
           </h3>
-          <div className="md:flex md:space-x-8 space-y-8 md:space-y-0">
+          <div className="space-y-8">
             <Image className="w-full" src={familyPic2} alt="Familienbild 1" />
             <Image className="w-full" src={familyPic3} alt="Familienbild 2" />
+            <Image className="w-full" src={familyPic1} alt="Familienbild 3" />
           </div>
-          <Image className="w-full" src={familyPic1} alt="Familienbild 3" />
         </div>
 
         {/* architecture section */}
@@ -99,7 +99,7 @@ const Portfolio: NextPage = () => {
           <h3 id="architektur" className="font-bold text-2xl text-left">
             Architektur
           </h3>
-          <div className="md:flex md:space-x-8 space-y-8 md:space-y-0">
+          <div className="space-y-8">
             <Image
               className="w-full"
               src={architecturePic1}
@@ -110,12 +110,12 @@ const Portfolio: NextPage = () => {
               src={architecturePic3}
               alt="Architekturbild 2"
             />
+            <Image
+              className="w-full"
+              src={architecturePic2}
+              alt="Architekturbild 3"
+            />
           </div>
-          <Image
-            className="w-full"
-            src={architecturePic2}
-            alt="Architekturbild 3"
-          />
         </div>
 
         {/* further section */}
@@ -123,7 +123,7 @@ const Portfolio: NextPage = () => {
           <h3 id="weiteres" className="font-bold text-2xl text-left">
             Weiteres
           </h3>
-          <div className="md:flex md:space-x-8 space-y-8 md:space-y-0">
+          <div className="space-y-8">
             <Image className="w-full" src={furtherPic1} alt="weiteres Bild 1" />
             <Image className="w-full" src={furtherPic2} alt="weiteres Bild 2" />
           </div>
