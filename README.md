@@ -11,7 +11,7 @@ Therefore, I would like to point out that Swiss Photography is merely an inventi
 3. double click the downloaded file to open the installer and follow the instructions on your screen
 
 ## How to open the website:
-_! This doesn't work on your phone_
+_This doesn't work on your phone!_
 
 1. save this repository in your local storage
 
