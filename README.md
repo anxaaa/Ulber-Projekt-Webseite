@@ -5,7 +5,7 @@ Therefore, I would like to point out that Swiss Photography is merely an inventi
 
 **To open the website you must have node.js installed on your computer!**
 
-_this won't work on your phone._
+_This won't work on your phone._
 
 ## How to install node js:
 1. go to the node.js website -> https://nodejs.org/de/ 
@@ -26,4 +26,5 @@ You can either clone this repository or donwload the zip file from it (if you do
 4. if you've just installed node.js type ```npm i```
 5. type ```npm run dev```
 6. open the displayed link (normally: localhost:3000) in your browser
+
 <img width="698" alt="Bildschirmfoto 2022-12-01 um 15 56 42" src="https://user-images.githubusercontent.com/112116868/205085488-b1772211-8e79-4b80-9dd5-3cfdd81bb978.png">
