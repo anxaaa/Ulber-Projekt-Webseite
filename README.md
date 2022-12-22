@@ -4,6 +4,7 @@ This is a school project. The task was to create a website and to implement all 
 Therefore, I would like to point out that Swiss Photography is merely an invention and does not exist.
 
 **To open the website you must have node.js installed on your computer!**
+_this won't work on your phone._
 
 ## How to install node js:
 1. go to the node.js website -> https://nodejs.org/de/ 
@@ -11,7 +12,6 @@ Therefore, I would like to point out that Swiss Photography is merely an inventi
 3. double click the downloaded file to open the installer and follow the instructions on your screen
 
 ## How to open the website:
-_This doesn't work on your phone!_
 
 1. save this repository in your local storage
 
