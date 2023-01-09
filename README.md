@@ -6,7 +6,7 @@ Therefore, I would like to point out that Swiss Photography is merely an inventi
 **To open the website you must have node.js installed on your computer!**
 
 ## How to install node.js:
-1. go to the node.js website -> https://nodejs.org/de/ 
+1. go to the node.js website -> https://nodejs.org/en/ 
 2. download the version of your choice
 3. double click the downloaded file to open the installer and follow the instructions on your screen
 
