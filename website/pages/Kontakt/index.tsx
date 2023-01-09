@@ -40,7 +40,9 @@ const Kontakt: NextPage = () => {
               swiss.photography@mail.ch
             </p>
             <h3 className="text-2xl font-bold">Telefon Nr.</h3>
-            <p className="my-4 text-xl">+41 81 256 26 25</p>
+            <p className="my-4 md:no-underline underline md:hover:underline text-xl cursor-pointer">
+              +41 81 256 26 25
+            </p>
             <h3 className="text-2xl font-bold">Adresse</h3>
             <p className="mt-4 text-xl">Swis Photography</p>
             <p className="text-xl">Scarlettastrasse 30</p>

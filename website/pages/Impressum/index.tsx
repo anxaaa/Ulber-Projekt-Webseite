@@ -27,6 +27,12 @@ const impressum: NextPage = () => {
             <p>Swiss Photography</p>
             <p>Scarlettastrasse 30</p>
             <p>CH-7000 Chur</p>
+            <p className="mt-1 md:no-underline underline md:hover:underline cursor-pointer">
+              swiss.photography@mail.ch
+            </p>
+            <p className="md:no-underline underline md:hover:underline cursor-pointer">
+              +41 81 256 26 25
+            </p>
           </div>
           <div>
             <h3 className="text-xl font-bold">Haftung für Links</h3>
